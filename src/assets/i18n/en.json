@@ -8,12 +8,12 @@
     "Header.cvName": "CV_Jose_Hernandez_Ingles.pdf",
 
     "Banner.Pretitle": "Hello! My name is",
-    "Banner.Description": "I have <span class='underline'>4 years of experience</span> developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>Angular</span> and sometimes in <span class='underline'>Laravel</span> applying good practices and development standards.",
+    "Banner.Description": "With a <span class='underline'>four-year background in DevOps</span>,I have actively contributed to the development of systems, interfaces, bots, and technological solutions, aiming to enhance the web landscape. My commitment extends to crafting and refactoring clean, reusable, and scalable code using Angular and occasionally Laravel, while leveraging various <span class='underline'>DevOps tools</span>. This approach ensures adherence to industry best practices and development standards, contributing to a more efficient and robust software ecosystem.",
     "Banner.ActionBtn": "Get in touch",
 
     "AboutMe.Title": "About me",
     "AboutMe.Paragraphs": [
-        "In my <span class='underline'>4 years as a developer</span>, I seek to train every day. I have worked writing <span class='underline'>unit tests</span>, <span class='underline'>performing continuous integration</span>, and covering backend developer roles with <span class='underline'>Laravel and Mysql</span>. I have led teams having empathy, exercising motivation to partners, and setting plans and goals together.",
+        "In my <span class='underline'>4 years as a devops engineer</span>, I seek to train every day. I have worked writing <span class='underline'>unit tests</span>, <span class='underline'>performing continuous integration</span>, and covering backend developer roles with <span class='underline'>Laravel and Mysql</span>. I have led teams having empathy, exercising motivation to partners, and setting plans and goals together.",
         "My skills also include implementing system improvements, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I'm working on.",
         "Some of the technologies that I have trained and worked on include (but are not limited to):"
     ],
