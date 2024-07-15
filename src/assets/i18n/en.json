@@ -34,10 +34,10 @@
               "I built more than 150 services from scratch and deployed them in the GKE. We deployed the service in gke for K8 manifest using the helmchart"
             ]
         }
-       
+
 
     ],
-    
+
 
     "FeatureProjects.Title": "My projects",
     "FeatureProjects.Label": "Featured Project",
@@ -103,7 +103,24 @@
             "demoLink": "https://keep-vue.netlify.app/",
             "ghLink": "https://github.com/Prasanth595/google-keep-vue-firebase",
             "Technologies": ["Next.js", "JChart.js", "GitHub Api"]
-        }
+        },
+        {
+          "Title": "Telnet from Kubernetes Cluster",
+          "Description": "Telnet operation from a GKE (Google Kubernetes Engine) cluster.",
+          "imgs": ["assets/images/countries-viewer.png"],
+          "demoLink": "https://gist.github.com/Prasanth595/5fb8ffb1e67ca4b409fd8979c04e5654#file-telnet-from-kubernetes-cluster-md",
+          "ghLink": "https://gist.githubusercontent.com/Prasanth595/5fb8ffb1e67ca4b409fd8979c04e5654/raw/41228669921498332dcddc9597465daafc85127d/Telnet%2520from%2520Kubernetes%2520Cluster.md",
+          "Technologies": ["Kubectl", "Curl", "Telnet"]
+        },
+        {
+          "Title": "Telnet from Kubernetes Cluster",
+          "Description": "Telnet operation from a GKE (Google Kubernetes Engine) cluster.",
+          "imgs": ["assets/images/countries-viewer.png"],
+          "demoLink": "https://gist.github.com/Prasanth595/5fb8ffb1e67ca4b409fd8979c04e5654#file-telnet-from-kubernetes-cluster-md",
+          "ghLink": "https://gist.githubusercontent.com/Prasanth595/5fb8ffb1e67ca4b409fd8979c04e5654/raw/41228669921498332dcddc9597465daafc85127d/Telnet%2520from%2520Kubernetes%2520Cluster.md",
+          "Technologies": ["Kubectl", "Curl", "Telnet"]
+        },
+
     ],
     "Contact.Pretitle": "What’s Next",
     "Contact.Title": "Get in touch!",
