@@ -109,8 +109,25 @@
             color: $Green;
         }
     }
+    /* Update this in your styles.scss */
+
+.job-description {
+  line-height: 1.6;
+  font-size: 0.95rem;
+  color: #ffffff !important; /* Forces the text to be pure white */
+  margin-bottom: 0.5rem;
 }
 
+/* If you want the bold headers to also be white (or a bright accent color) */
+.job-description b, 
+.job-description strong {
+  color: #ffffff; 
+  font-weight: 700;
+}
+
+
+}
+/* Add this to your styles.scss or component css */
 
 
 @media (max-width: 768px){
