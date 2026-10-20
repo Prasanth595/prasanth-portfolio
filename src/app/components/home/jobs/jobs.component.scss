@@ -10,7 +10,7 @@
 
     ul{
         display: block;
-        width: 114.33px;
+        width: 160px;
         border: none;
     }
 
@@ -136,7 +136,7 @@
             padding: 0px;
         }
     }
-    ::ng-deep .jobs-tabs{
+    ::ng-deep .jobs .jobs-tabs{
         display: block !important;
 
         .tab-content{
@@ -144,9 +144,24 @@
         }
 
         ul {
-            display: block;
+            display: flex !important;
+            flex-direction: row !important;
+            flex-wrap: wrap;
             width: 100% !important;
-            margin-bottom: 50px;
+            margin-bottom: 30px;
+        }
+
+        li {
+            flex: 1 1 30%;
+            border-left: none;
+            border-bottom: 2px solid rgb(48, 60, 85);
+        }
+
+        a {
+            justify-content: center;
+            text-align: center;
+            padding: 0 6px;
+            height: 40px;
         }
     }
 }
