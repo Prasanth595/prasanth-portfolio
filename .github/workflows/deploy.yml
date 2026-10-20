@@ -1,0 +1,50 @@
+name: Build and deploy to prasanth-portfolio-html
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Set up Node 16 (Angular 13)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm install --force
+
+      - name: Build
+        run: npm run build
+
+      - name: Checkout live repo
+        uses: actions/checkout@v4
+        with:
+          repository: Prasanth595/prasanth-portfolio-html
+          token: ${{ secrets.DEPLOY_TOKEN }}
+          path: live
+
+      - name: Sync dist into live repo
+        run: rsync -a --delete --exclude '.git' dist/prasanth-arumugam-portfolio/ live/
+
+      - name: Commit and push if changed
+        working-directory: live
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to deploy."
+          else
+            git commit -m "Deploy build from prasanth-portfolio"
+            git push
+          fi
